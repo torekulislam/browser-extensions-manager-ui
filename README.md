@@ -24,7 +24,7 @@ A responsive UI project for managing browser extensions. Users can enable, disab
 ### Links
 
 - 🔧 Solution URL: [GitHub Repository](https://github.com/torekulislam/browser-extensions-manager-ui)
-- 🌐 Live Site: [Live Preview](https://browser-extensions-manager-ui-pearl.vercel.app/)
+- 🌐 Live Site: [Live Preview](https://browser-extensions-manager-ui-mocha.vercel.app/)
 
 ---
 
