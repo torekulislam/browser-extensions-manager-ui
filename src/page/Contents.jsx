@@ -30,7 +30,7 @@ function Contents() {
   return (
     <div>
       {" "}
-      <div className="grid mx-auto w-fit items-stretch grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-20 transition-all duration-[5s]">
+      <div className="grid mx-auto w-fit items-stretch grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10 transition-all duration-[5s]">
         {filteredData.map(
           (data, i) =>
             !data.isRemove && (

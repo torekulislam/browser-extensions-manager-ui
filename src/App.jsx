@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header, Controls, UndoRemove } from "./components";
+import { Header, Controls, UndoRemove, Footer } from "./components";
 import Contents from "./page/Contents";
 
 function App() {
@@ -16,8 +16,13 @@ function App() {
         <div className="">
           <Contents />
         </div>
+        <div className="">
+          <UndoRemove />
+        </div>
       </div>
-      <UndoRemove />
+      <div className="">
+        <Footer />
+      </div>
     </div>
   );
 }
