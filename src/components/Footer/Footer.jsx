@@ -17,9 +17,8 @@ function Footer() {
         href="https://www.linkedin.com/in/torekul-islam-72748b335/"
         aria-label="Torekul's linkedin id"
       >
-        Torekul
+        Torekul.
       </a>
-      .
     </div>
   );
 }
