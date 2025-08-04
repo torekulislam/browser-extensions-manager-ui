@@ -1,12 +1,89 @@
-# React + Vite
+# Frontend Mentor - Browser Extensions Manager UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Browser Extensions Manager challenge](https://www.frontendmentor.io). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of contents
 
-## Expanding the ESLint configuration
+- [Overview](#overview)
+  - [Screenshots](#screenshots)
+  - [Links](#links)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Overview
+
+A responsive UI project for managing browser extensions. Users can enable, disable, and delete extensions, with an option to undo deletions within a few seconds using a toast notification.
+
+### Links
+
+- 🔧 Solution URL: [GitHub Repository](https://github.com/torekulislam/browser-extensions-manager-ui)
+- 🌐 Live Site: [Live Preview](https://browser-extensions-manager-ui-pearl.vercel.app/)
+
+---
+
+### Screenshots
+
+![Mobile](./src/design/mobile-design.png)
+![Desktop](./src/design/screencaptur-desktop.png)
+![Mobile](./src/design/mobile-design2.png)
+![Desktop](./src/design/screencaptur-desktop2.png)
+
+---
+
+## My Process
+
+### Built With
+
+- Semantic HTML5 markup
+- Tailwind CSS
+- React JS
+- Redux Toolkit (for state management)
+- Framer Motion (for animation)
+- Vite (build tool)
+- Mobile-first responsive workflow
+- Flexbox & Grid layout
+
+---
+
+### What I Learned
+
+- **Responsive Design:** Practiced building clean, mobile-first layouts that adapt to all screen sizes.
+- **State Management:** Implemented efficient global state handling using Redux Toolkit.
+- **React Components:** Built modular, reusable components for better scalability.
+- **Toast Notifications:** Used `setTimeout` and Redux to create a timed undo feature with a user-friendly interface.
+- **Dark Mode:** Learned how to apply theme-aware styling using Tailwind’s dark mode support.
+
+- **Redux Toolkit:** Used `createSlice` and state handling
+
+---
+
+## Author
+
+- GitHub – [@torekulislam](https://github.com/torekulislam)
+- Frontend Mentor – [@torekulislam](https://www.frontendmentor.io/profile/torekulislam)
+
+---
+
+## Acknowledgments
+
+Thanks to [Frontend Mentor](https://www.frontendmentor.io) for providing the challenge design. Also, appreciation to the open-source community for the libraries and tools used in this project.
+
+---
+
+## Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/your-username/browser-extensions-manager-ui.git
+cd browser-extensions-manager-ui
+npm install
+npm run dev
+```
